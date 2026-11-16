@@ -1,0 +1,21 @@
+# Environment credentials and secrets
+.env
+.env.local
+.env.*.local
+
+# Database backups containing voter records
+database/backups/*.sql
+!database/backups/.gitkeep
+
+# Development and error log files
+storage/logs/*.log
+!storage/logs/.gitkeep
+
+# PHP server cookies and session files
+cookies.txt
+
+# Composer dependencies
+vendor/
+
+# Temporary test / scratch files
+scratch/
