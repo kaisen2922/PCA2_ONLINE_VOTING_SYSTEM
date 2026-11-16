@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8B84A"/>
+      <stop offset="100%" stop-color="#C98A2C"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#1F1712" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <circle cx="60" cy="60" r="56" fill="url(#bgGrad)" stroke="#E8B84A" stroke-width="2" filter="url(#shadow)"/>
+  <circle cx="60" cy="46" r="20" fill="#241B16" opacity="0.95"/>
+  <path d="M 32 98 C 32 78 44 72 60 72 C 76 72 88 78 88 98 Z" fill="#241B16" opacity="0.95"/>
+  <text x="60" y="53" font-family="'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="800" fill="#F4CB45" text-anchor="middle">PS</text>
+</svg>
